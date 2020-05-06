@@ -1,0 +1,171 @@
+
+* {
+    box-sizing: border-box;
+  }
+  /*** media query desktops/tablets/ipads***/
+  @media (min-width: 1200px) {
+    body{
+      background-color: rgb(230, 230, 163);
+    }
+    
+    .nav.navbar-nav.navbar-right{
+      display: none;
+    }
+    #c1, #c2, #c3 {
+      
+        width: 100%;
+        margin-bottom: 8px;
+        margin-right: 5px;
+        height: auto;
+        background: #ccc;
+        position: relative;
+        display: inline-block;
+        border-radius: 2%;
+        border: 2px solid rgb(8, 8, 8);
+        box-shadow: 2.5px 5px;
+        background-color: lightcoral;
+    }
+    #chicken,#beaf,#sushi{
+      height: 30px;
+      text-align: center;
+      font-weight: bold;
+      padding-top: 10px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+  
+    .nav.navbar-nav.navbar-right{
+      display: none;
+    }
+    #c1, #c2, #c3 {
+       
+        width: 100%;
+        margin-bottom: 8px;
+        margin-right: 5px;
+        height: auto;
+        background: #ccc;
+        position: relative;
+        display: inline-block;
+        border-radius: 2%;
+        border: 2px solid rgb(8, 8, 8);
+        box-shadow: 2.5px 5px;
+        background-color: lightcoral;
+    }
+    #chicken,#beaf,#sushi{
+      height: 30px;
+      text-align: center;
+      font-weight: bold;
+      padding-top: 10px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    
+    .nav.navbar-nav.navbar-right{
+      display: none;
+    }
+    #c1, #c2, #c3 {
+        border: 1px solid black;
+        width: 100%;
+        margin-bottom: 8px;
+        margin-right: 5px;
+        height: auto;
+        background: #ccc;
+        position: relative;
+        display: inline-block;
+    }
+    #chicken,#beaf,#sushi{
+      height: 30px;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+  
+  /*** media query mobiles***/
+  @media (max-width: 767px) {
+    #c1, #c2, #c3 {
+       width: 100%;
+       height: auto;
+       margin-bottom: 10px;
+       background: #ccc;
+       display: table;
+       border-radius: 2%;
+        border: 2px solid rgb(8, 8, 8);
+        box-shadow: 2.5px 5px;
+        background-color: lightcoral;
+    }
+    #chicken,#beaf,#sushi{
+      align-items: center;
+      height: 30px;
+      text-align: center;
+      font-weight: bold;
+    }
+    body{
+      background-color: black;
+    }
+  
+  .navbar-toggle{
+      border:none !important;
+    }
+    .navbar .navbar-nav {
+          display: inline-block;
+          float: none;
+          vertical-align: top;
+      }
+   .navbar .navbar-collapse {
+          text-align: center;
+     }
+    .nav.navbar-nav.navbar-right {
+    list-style: none;
+    border: 1px solid rgb(7, 8, 8);
+    width: 100%;
+  }
+  #list{
+    border: 1px solid rgb(5, 5, 5);
+    width: 100%;
+  }
+  }
+  
+  #pargraphText{
+    float:left; 
+    clear: left;
+    margin: 30px;
+  }
+  #container {
+    clear: both;
+  }
+  #contentContainer{
+    margin: 15px;
+    
+  }
+  .navbar-default{
+      background-color: #862f38;
+  }
+  .navbar.navbar-default{
+    background-color: pink;
+  }
+  .navbar-brand a{
+    text-align: center;
+    font-family: "Comic Sans MS", Times, serif;
+    font-style: bold;
+    color: rgb(11, 14, 5);
+  
+  }
+  .navbar-header a.navbar-brand {
+    text-align: center;
+    color: rgb(6, 6, 7);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", Times, serif;
+  }
+  h1{
+    text-align: center;
+    font-family: "Comic Sans MS", Times, serif;
+    font-style: bold;
+  }
+  h2{
+    text-align: center;
+    font-family:Comic Sans MS;
+    font-style: bold;
+  }
+  
