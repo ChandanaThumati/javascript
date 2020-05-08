@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Username</title>
+        <style>
+            #result{
+                color: rgb(6, 161, 154);
+                font-style: italic;
+            }
+        </style>
+        
+    </head>
+    <body>
+    <h2> Time: <span id="time" style="font-family: Comic Sans MS;" ></span></h2>
+    <h2> Date: <span id="date" style="font-family: Comic Sans MS;" ></span></h2>
+    <h2> Date: <span id="date/" style="font-family: Comic Sans MS;" ></span></h2>
+
+  <script>
+      var date = new Date();
+var n = date.toDateString();
+var time = date.toLocaleTimeString();
+var d = new Date();
+var date = d. getDate();
+var month = d. getMonth() + 1; // Since getMonth() returns month from 0-11 not 1-12.
+var year = d. getFullYear();
+var dateStr = date + "/" + month + "/" + year;
+document.getElementById('date/').innerHTML = dateStr ;
+document. write(dateStr);
+document.getElementById('time').innerHTML = time;
+document.getElementById('date').innerHTML = n ;
+</script>
+    </body>
+</html>
